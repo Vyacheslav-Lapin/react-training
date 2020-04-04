@@ -1,4 +1,4 @@
-package ru.vlapin.experiments.d3experiment.services;
+package ru.vlapin.experiments.reacttraining.services;
 
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import ru.vlapin.experiments.d3experiment.model.Post;
+import ru.vlapin.experiments.reacttraining.model.Post;
 
 @FeignClient(
     name = "JSONPlaceHolder"
